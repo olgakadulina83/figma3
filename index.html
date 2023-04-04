@@ -73,15 +73,17 @@
          buttonEl.addEventListener('click', function (e) {
          blockEL.classList.toggle('visible');
         });
-         const     EL = document.querySelector ('.krestic')
-         kresticEl.addEventListener('click', function (e) {
-         kresticEL.classList.remove('visible');
-        });
+    
          const burgerEL = document.querySelector('.burger');
          const menuEL = document.querySelector('.menu');
          burgerEL.addEventListener('click', function (e){
-         menuEL.classList.toggle('menu_blok');  
+            menuEL.classList.toggle('menu_blok');    
+        });
+         const closeIcon = document.querySelector('.krestic')
+         closeIcon.addEventListener('click', function (e) {
+            blockEL.classList.remove('visible');
         });
     </script>
-</body>          
+</body>   
+
 </html>
