@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+img {
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+}
+.center {
+    padding-left: calc(50% - 1250px / 2);
+    padding-right: calc(50% - 1250px / 2);
+}
+.top {
+    background:rgba(246, 242, 242, 0.5);
+    padding-top: 29px;
+    padding-bottom: 111px;
+}
+.top_content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 102px;
+}
+.top_info {
+    width: 618px;
+}
+.title {
+    height: 117px;
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.video {
+    height: 356px;
+    box-shadow: -2.2px -13.8px 73px rgba(0, 0, 0, 0.29);
+}
+.text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+}
+.top_text {
+    padding-top: 36px;
+    padding-bottom: 64px;
+    height: 73px;
+    width: 544px;
+}
+.header {
+    background: rgba(0, 0, 0, 0.8);
+    mix-blend-mode: normal;
+    border: 1px solid #000000;
+}
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}   
+.menu_link {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.49px;
+    text-transform: uppercase;
+    color: #E0E0E0;
+    display: flex;
+    padding: 38px 23px 26px;
+}
+.menu_link:hover {
+    background:  rgba(255, 63, 64, 1);
+}
+.menu_link_active {
+    background: rgba(255, 63, 64, 1);
+    justify-content: center;
+}
+.button {
+    width: 226px;
+    height: 55px;
+    background: #FF2D2D;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 34px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.32px;
+    color: #FFFFFF;
+    justify-content: center;
+}
+.services {
+    padding-top: 107px;
+}
+.services-modul {
+    padding-bottom: 99px;
+    display: flex;
+    border-bottom: 5px solid #ECECEC;
+} 
+.services-content {
+    width: 522px;
+    padding-right: 103px;
+}
+.title_1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+    line-height: 55px;
+    color: #000000;
+}
+.button_more {
+    box-sizing: border-box;
+    width: 226px;
+    height: 55px;
+    background: rgba(0, 0, 0, 0.0001);
+    border: 2px solid #FF0000;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.32px;
+    color: #FF2D2D;
+    justify-content: center;
+    margin-top: 64px;
+}
+.services-item {
+    width: 300px;
+}
+.services_item_anime {
+    display: flex;
+    flex-wrap: wrap;
+    width: 609px;
+    row-gap: 50px;
+    justify-content: space-between;
+}
+.about_text {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0.3px;
+    margin-top: 32px;
+    width: 183px;
+    padding-bottom: 12px;
+}
+.services-item:hover .logo-img {
+    transform: rotate(360deg)
+}
+.logo-img {
+    transition: transform 1s;
+}
+.products {
+    padding-top: 105px;
+}
+.products__title {
+    text-align: center;
+    letter-spacing: 0.38px;
+    padding-bottom: 28px;
+}
+.text_products_width {
+    width: 536px;
+    margin: 0px auto 33px;
+    text-align: center;
+}
+.products__line {
+    width: 134px;
+    height: 5px;
+    background: #FF2D2D;
+    margin: auto;
+}
+.products__link {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    color: #000000;
+    letter-spacing: 0.22px;
+    text-transform: uppercase;
+    transition: color .3s;
+}
+.products__link:hover {
+    color: #FF2D2D;
+}
+.products__link_active {
+    color: #FF2D2D;
+}
+.products__box {
+    padding-top: 86px;
+}
+.products__links {
+   display: flex;
+   justify-content: center;
+   gap: 64px;
+   padding-bottom: 58px;
+}
+.products__items {
+    display: flex;
+    gap: 17px;
+    flex-wrap: wrap;
+    width: 1252px;
+    margin: auto;
+    margin-bottom: 132px;
+}
+.products__item {
+    display: flex;
+}
+.meet {
+    margin-top: 132px;
+    padding-left: calc(50% - 609px);
+    padding-bottom: 115px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    justify-content: space-around;
+}
+.meet_title {
+    padding-bottom: 34px;
+}
+.meet__text {
+    margin-bottom: 37px;
+    width: 472px;
+}
+.meet__line {
+    width: 132px;
+    height: 5px;
+    background: #FF2D2D;
+}
+.meet__content {
+    margin-top: 66px;
+    display: flex;
+    gap: 75px;
+    flex-direction: row;
+    text-align: center;
+}
+.meet__person {
+    width: 320px;
+    height: 458px;
+    background: rgba(255, 63, 64, 1);
+}
+.meet__info {
+    padding-top: 12px;
+}
+.meet__heading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 0px;
+    letter-spacing: 0.27px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 29px;
+    margin-top: 16px;
+    text-align: left;
+}
+.text_big {
+    width: 654px;
+    text-align: left;
+}
+.meet__links {
+    display: flex;
+    gap: 28px;
+    margin-top: 45px;
+}
+.meet__link {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.9px;
+    color: #000000;
+}
+.meet__link:hover {
+  text-decoration: underline;
+}
+
+.meet__peoples {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin-top: 61px;
+    background: rgba(0, 0, 0, 0.0001);
+}
+.meet__people {
+    display: flex;
+    position: relative;
+    width: 196px;
+    height: 216px;
+    color: rgba(255, 63, 64, 1);
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.0001);
+}
+.meet__people:hover .meet__name-box {
+    left: 0;
+}
+.meet__name-box {
+    background: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    left: -100%;
+    transition: left .3s;
+}
+.meet__person-name {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 0px;
+    letter-spacing: 0.16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+
+
